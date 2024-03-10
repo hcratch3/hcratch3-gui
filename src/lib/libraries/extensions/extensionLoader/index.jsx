@@ -4,7 +4,7 @@ import {FormattedMessage} from 'react-intl';
 import iconImage from './extensionLoader.png';
 import insetImage from './extensionLoader-small.svg';
 
-const version = 'xcratch-0.3.3';
+const version = 'hcratch-3.0.0';
 
 const translationMap = {
     'ja': {
@@ -37,7 +37,7 @@ export default {
     featured: true,
     disabled: false,
     internetConnectionRequired: true,
-    collaborator: 'Yengawa Lab',
-    helpLink: 'https://xcratch.github.io/',
+    collaborator: 'Hcratch3',
+    helpLink: 'https://hcratch3.github.io/',
     translationMap: translationMap
 };
