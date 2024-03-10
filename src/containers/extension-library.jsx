@@ -67,7 +67,7 @@ class ExtensionLibrary extends React.PureComponent {
                 {
                     message: this.props.intl.formatMessage(messages.extensionUrl),
                     valueType: 'url',
-                    initialValue: 'https://xcratch.github.io/xcx-example/dist/xcratchExample.mjs'
+                    initialValue: 'https://extension.hcratch3.github.io/extension/index.mjs'
                 })
                 .then(inputUrl => this.props.vm.extensionManager.fetchExtension(inputUrl)
                     .catch(error => {
