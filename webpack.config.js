@@ -177,7 +177,7 @@ module.exports = [
             new HtmlWebpackPlugin({
                 chunks: ['lib.min', 'gui'],
                 template: 'src/playground/index.ejs',
-                title: 'Xcratch',
+                title: 'Hcratch3',
             }),
             new HtmlWebpackPlugin({
                 chunks: ['lib.min', 'blocksonly'],
@@ -233,15 +233,15 @@ module.exports = [
                 maximumFileSizeToCacheInBytes: 32 * 1024 * 1024
             }),
             new WebpackPwaManifest({
-                name: 'Xcratch',
-                short_name: 'Xcratch',
+                name: 'Hcratch3',
+                short_name: 'Hcratch3',
                 description: 'Extendable Scratch3 mod',
                 background_color: '#ffffff',
                 orientation: 'any',
                 crossorigin: 'use-credentials',
                 inject: true,
                 ios: {
-                    'apple-mobile-web-app-title': 'Xcratch',
+                    'apple-mobile-web-app-title': 'Hcratch3',
                     'apple-mobile-web-app-status-bar-style': 'default'
                 },
                 icons: [
